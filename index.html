@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+    <!--========== HTML2PDF ==========-->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Iuliana Florentina Băltărețu - CV Resume</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Menu</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx nav__icon bx-home"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="bx nav__icon bx-user"></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx nav__icon bx-receipt"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="bx nav__icon bx-briefcase-alt"></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="bx nav__icon bx-book"></i>Education
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/ProfilePicture.webp" alt="" class="home__img">
+
+                            <h1 class="home__title">Iuliana Florentina <b>Băltărețu</b></h1>
+                            <h3 class="home__profession">Senior Oracle Developer</h3>
+
+                            <div class="">
+                                <!-- <a download="" class="home__button-movil">Download</a> -->
+                                <i class="home__button-movil" title="Download PDF" id="resume-button-download">Download</i>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx home__icon bx-map"></i>Bucharest, Romania
+                            </span>
+                            <span class="home__information">
+                                <i class="bx home__icon bx-envelope"></i><a
+                                    href="mailto:baltaretuiulianaflorentina@gmail.com">baltaretuiulianaflorentina@gmail.com</a>
+                            </span>
+                            <span class="home__information">
+                                <i class="bx home__icon bx-phone"></i><a href="tel:+4074924845">+4074924845</a>
+                            </span>
+                            <span class="home__information">
+                                <i class="bx social__icon bxl-linkedin-square"></i><a href="https://ro.linkedin.com/in/iuliana-florentina-mugea" target="_blank">Linkedin Profile</a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class="bx bx-download generate-pdf" title="Download PDF"
+                            id="resume-button"></i>
+                </section>
+
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">PROFILE</h2>
+                    <p class="profile__description">
+                        Highly skilled PL/SQL Developer with over 10 years of experience in database development,
+                        maintenance, and optimization. Proficient in designing, implementing, and troubleshooting
+                        complex PL/SQL scripts. Adept at collaborating with cross-functional teams to enhance system
+                        performance and deliver robust solutions.
+                    </p>
+                </section>
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> PL/SQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Oracle
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> SQL Dev
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> TOAD
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> MySQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> SSMS
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> DB Tuning
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                
+                <!--========== courses  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Courses</h2>
+                    <div class="bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Database design and Programming with MySQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Oracle Database design and Programming with PL/SQL
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Oracle Database design and Programming with SQL
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES  ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+                    <div class="languages__content bd-grid">
+                        <div class="languages__name">
+                            <i class="bx languages__icon bx-badge-check"></i>English
+                        </div>
+                        <div class="languages__name">
+                            <i class="bx languages__icon bx-badge-check"></i>French
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Senior Oracle Developer at Thales</h3>
+                                <span class="experience__company">August 2023 – Present</span>
+                                <p class="experience__description">
+                                <ul class="experience__list">
+                                    <li>Collaborated with application support teams to troubleshoot and resolve
+                                        production issues on four applications (with 10 branches each).</li>
+                                    <li>Conducted code reviews, identified bottlenecks, and optimized existing PL/SQL
+                                        code.</li>
+                                    <li>Ensured data integrity and consistency by monitoring database performance and
+                                        addressing anomalies promptly.</li>
+                                    <li>Implemented quarterly updates according to SOX regulations.</li>
+                                    <li>Designed and developed PL/SQL packages, procedures, and functions to support
+                                        business requirements.</li>
+                                    <li>Worked closely with the project manager to gather requirements and translate
+                                        them into technical specifications.</li>
+                                    <li>Collaborated with the ASP.NET development team to integrate PL/SQL components
+                                        into web applications.</li>
+                                    <li>Developed database-driven features for web interfaces, ensuring seamless data
+                                        flow between front-end and back-end systems.</li>
+                                    <li>Created a PowerShell script to clean old logs on a monthly basis, scheduling the
+                                        script to run daily using Task Scheduler to ensure regular purging of log files.
+                                    </li>
+
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Senior Oracle Developer at DELL</h3>
+                                <span class="experience__company">January 2022 – August 2023</span>
+                                <p class="experience__description">
+                                <ul class="experience__list">
+                                    <li>Collaborated with business partners to understand regulatory changes and new
+                                        reporting requirements from banks.</li>
+                                    <li>Adapted existing PL/SQL code to seamlessly incorporate these changes.</li>
+                                    <li>Ensured compliance with financial regulations and industry standards.</li>
+                                    <li>Reviewed legacy PL/SQL codebase, identifying areas for improvement and making
+                                        necessary adjustments to enhance performance, maintainability, and scalability.
+                                    </li>
+                                    <li>Documented changes and communicated them to the development team.</li>
+                                    <li>Analyzed query execution plans and optimized SQL queries for better performance.
+                                    </li>
+                                    <li>Utilized indexing, partitioning, and materialized views to enhance database
+                                        efficiency.</li>
+                                    <li>Prepared comprehensive financial reports for the financial department.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Senior Oracle Developer at Intellimind</h3>
+                                <span class="experience__company">December 2018 – January 2022</span>
+                                <p class="experience__description">
+                                <ul class="experience__list">
+                                    <li>Led entire projects, ensuring quality and meeting deadlines.</li>
+                                    <li>Documented business rules, functional and technical designs, test cases, and
+                                        user guides.</li>
+                                    <li>Implemented optimization techniques such as bulk collections, indexes, and
+                                        materialized views to improve query execution.</li>
+                                    <li>Configured batches and decision trees.</li>
+                                    <li>Maintained accurate records and data integrity.</li>
+                                    <li>Wrote complex procedures and logic flows involving big data processing and
+                                        numerical accuracy.</li>
+                                    <li>Proactively tuned SQL queries, improving system response time and efficiency.
+                                    </li>
+                                    <li>Mentored and trained junior developers, guiding them towards becoming proficient
+                                        developers.</li>
+
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Oracle Developer at Intellimind</h3>
+                                <span class="experience__company">December 2013 – December 2018</span>
+                                <p class="experience__description">
+                                <ul class="experience__list">
+                                    <li>Collaborated with business analysts and DBAs for requirements gathering,
+                                        business analysis, testing, metrics, and project coordination.</li>
+                                    <li>Developed PL/SQL stored procedures, functions, and triggers.</li>
+                                    <li>Integrated PL/SQL components into web and mobile applications in collaboration
+                                        with .NET and mobile development teams.</li>
+                                    <li>Imported data from various sources into Oracle databases.</li>
+                                    <li>Utilized Ref cursors and collections for accessing complex data.</li>
+                                    <li>Implemented exception handling.</li>
+
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Junior Developer at Intellimind</h3>
+                                <span class="experience__company">December 2014 – December 2015</span>
+                                <p class="experience__description">
+                                <ul class="experience__list">
+                                    <li>Created database objects such as queries, tables, indexes, views, sequences,
+                                        primary & foreign keys, constraints, and triggers.</li>
+                                    <li>Updated existing PL/SQL packages.</li>
+                                    <li>Extracted and transformed data from flat files according to client business
+                                        logic.</li>
+                                    <li>Implemented data validation constraints on tables.</li>
+
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">EDUCATION</h2>
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Informatică Economică at Academia de Studii Economice din
+                                    Bucuresti</h3>
+                                <span class="education__year">2012 – 2015</span>
+                                <p class="education__description">
+                                    In the last semester, in the 3 weeks period of practice, I've worked for ISIC, a
+                                    company that makes discount card for students and teachers. In this period I had to
+                                    make a poll between students and put all the gathered information in a new database.
+                                    This helped ISIC's employees to know where students want discounts and the places
+                                    they frequent.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== COURSES ==========-->
+                <!-- <section class="courses section">
+                    <h2 class="section-title">COURSES</h2>
+                    <div class="courses__container bd-grid">
+                        <div class="courses__content">
+                            <h4 class="courses__name">Database design and Programming with MySQL</h4>
+                        </div>
+                        <div class="courses__content">
+                            <h4 class="courses__name">Oracle Database design and Programming with PL/SQL</h4>
+                        </div>
+                        <div class="courses__content">
+                            <h4 class="courses__name">Oracle Database design and Programming with SQL</h4>
+                        </div>
+                    </div>
+                </section> -->
+            </div>
+        </div>
+    </main>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
