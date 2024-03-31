@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  playback:
+    container_name: iuliana_resume
+    build: https://github.com/manuelbaltaretu/IulianaResume.git
+    image: iuliana_resume
+    restart: unless-stopped
+    ports:
+      - "800808:80"
